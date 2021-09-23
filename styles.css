@@ -1,0 +1,59 @@
+.input {
+  margin-top: 10em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+label,
+input,
+button {
+  margin: 1em;
+}
+
+.input input {
+  padding: 10px;
+  margin: 10px 0;
+  border: 2px solid #eee;
+  border-radius: 10px;
+  box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.06);
+  width: 20%;
+}
+
+.btn button {
+  padding: 10px;
+  border: none;
+  color: white;
+  font-weight: 600;
+  border-radius: 5px;
+}
+
+button:nth-child(1) {
+  background-color: red;
+}
+
+button:nth-child(2) {
+  background-color: blue;
+}
+
+button:nth-child(3) {
+  background-color: rgb(212, 212, 0);
+}
+
+button:nth-child(4) {
+  background-color: green;
+}
+
+button:nth-child(5) {
+  background-color: black;
+}
+
+.btn button:hover {
+  background-color: grey;
+}
